@@ -1,25 +1,25 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/*Asterisk wildcard selector to override default styles added by the browers */
+/* Asterisk wildcard selector to override default styles added by the browers */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 } 
 
-/*General styles*/
+/* General styles */
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic project styles*/
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
 
-/*Header*/
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -70,7 +70,7 @@ header a {
     top: 100%;
  }
 
- /*Nav toggle*/
+ /* Nav toggle */
  #nav-toggle:checked~nav {
     display: block;
  }
@@ -84,9 +84,9 @@ header a {
  }
 
 
-/*Main content*/
+/* Main content */
 main {
-    /*Make main element take up any surplus space to push footer down*/
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -115,7 +115,34 @@ main {
    color: #ffffff;
 }
 
-/*Footer*/
+/* Reasons section */
+#reasons {
+   width: 90%;
+   margin: 20px auto;
+}
+
+#reasons h2 {
+   margin-bottom: 20px;
+   text-align: center;
+   font-size: 280%;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+   line-height: 20px;
+   margin-bottom: 20px;
+} 
+
+#benefits p {
+   padding: 0 20px;
+}
+
+#benefits hr {
+   border-top: 1px solid #3a3a3a;
+   margin: 5px 0;
+}
+
+/* Footer */
 #social-networks {
    text-align: center;
    padding: 20px 0;
@@ -132,7 +159,7 @@ main {
 
 /* Media query: tablets and larger(768px and up) */
 @media  screen and (min-width: 768px) {
-   /*Header*/
+   /* Header */
    nav {
       display: block;
       position: relative;
