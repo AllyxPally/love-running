@@ -366,8 +366,6 @@ Each div will expand to fill the available space on its row */
 
 }
 
-
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width:992px) {
    #menu a:hover {
