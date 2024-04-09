@@ -172,7 +172,7 @@ main {
 
 /* Meetup Times section */
 #times {
-   background: url(../dublin-city.webp) no-repeat center/cover;
+   background: url(../images/dublin-city.webp) no-repeat center/cover;
    /* Handles responsitivity without the need for a media query */
    display: flex;
    flex-wrap: wrap;
